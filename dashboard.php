@@ -12,14 +12,14 @@
 <html>
 
 
-<!-- Mirrored from webapplayers.com/inspinia_admin-v2.7.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 05:59:00 GMT -->
+
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>INSPINIA | Dashboard</title>
+    <title>Gbese | Dashboard</title>
   <link rel="stylesheet" type="text/css" href="lend.css">
     
     <link href="css/bootstrap.min.css" rel="stylesheet">
