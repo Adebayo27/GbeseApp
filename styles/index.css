@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap');
+
+body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+    margin: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+    margin: 0;
+}
+header{
+    width: 100%;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    padding:10px 20px;
+}
+.brand{
+    justify-content: flex-end
+}
+.logo-link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #808080;
+}
+.brand-name{
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight:bold;
+}
+li{
+    list-style-type: none;
+}
+.nav-menu{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #808080;
+}
+.item{
+    margin: 0 20px;
+    color: #808080
+}
+.login-btn{
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    color: #FFF;
+    background-color: blue;
+    position: relative;
+    bottom: 10px
+}
+.login-btn:focus{
+    outline: none
+}
+main{
+    width: 100%;
+    
+}
+.columns{
+    display: grid;
+    grid-template-columns: 54% 46%;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 60px
+}
+.hero{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #808080;
+}
+.money{
+    color: blue
+}
+.hero-small{
+    color: #808080;
+    width: 40%;
+    margin: 18px 0;
+    font-size: 18px;
+    line-height: 22px
+}   
+
+
+.cta-btn{
+    width: 180px;
+    background-color: blue;
+    color: #FFF;
+    padding: 15px;
+    border: none;
+    border-radius: 23px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.explaier-section{
+    background: #F9F9F9;
+}
+.how{
+    margin: 60px;
+    color: blue;
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 100px
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25)
+}
+.card > svg{
+  margin: 0 auto;
+}
+.card-texts{
+    margin: 0 55px
+}
+.card-header{
+    color: blue
+}
+.card-body{
+    color: #808080
+}
+
+footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #C4C4C4;
+    padding: 40px 20px 10px 50px;
+    color: #808080
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px
+}
+footer form{
+    width: 400px;
+}
+.form-name{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px
+}
+.form-details{
+    font-size: 18px;
+}
+.email{
+    padding:15px;
+    border-radius: 10px;
+    border: none
+}
+.enquiries{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none
+}
+.enquiries-submit{
+    margin-top: 10px;
+    background: blue;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #FFF;
+}

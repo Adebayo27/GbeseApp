@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+    width: 100%;
+    font-family: 'Raleway';
+    flex-wrap: wrap; 
+    overflow: hidden;
+}
+h1{
+    display: flex;
+    justify-content: center
+}
+hr{
+    width: 20%;
+    margin-bottom: 50px;
+    /* background: #000000 */
+}
+.content{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background-color: #dae1e7;
+    border-radius: 10px;
+
+}   
+
+form input{
+    border-radius: 15px;
+}
+
+.lend{
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    padding-bottom: 20px
+}
+.form-input{
+    margin-bottom: 20px;
+    min-width: 300px;
+    border-radius: .25rem;
+    border: none;
+    box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, .1);
+    appearance: none;
+    padding: 10px;
+}
+input:focus{
+    outline-color: blue;
+}
+button{
+    background: blue;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: none
+    
+}
+button:focus{
+    outline: none;
+}
+.signup-content{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    background-color: #dae1e7;
+    border-radius: 10px;
+}
